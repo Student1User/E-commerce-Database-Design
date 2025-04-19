@@ -160,7 +160,7 @@ INSERT INTO product (name, brand_id, category_id, base_price, description) VALUE
 
 ## 🔧 Technologies Used
 
-- **MySQL 8+**
+- **MySQL workbench**
 - **dbdiagram.io** (for ERD)
 - **Git + GitHub** (version control)
 - **Markdown** (documentation)
