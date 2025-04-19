@@ -58,30 +58,25 @@ ecommerce-database/
 ---
 
 🚀 Setup Instructions
+# 1. Clone the repository
+git clone https://github.com/Student1User/ecommerce-database.git
+cd ecommerce-database
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/ecommerce-database.git
-   cd ecommerce-database
-   ```
+# 2. Create and select the database
+# (Open your MySQL client and run the following:)
+CREATE DATABASE ecommerce_db;
+USE ecommerce_db;
 
-2. **Create and Select Database**
-   ```sql
-   CREATE DATABASE ecommerce_db;
-   USE ecommerce_db;
-   ```
+# 3. Import the schema (ecommerce.sql)
+mysql -u root -p ecommerce_db < ecommerce.sql
 
-3. **Run Schema**
-   ```bash
-   mysql -u root -p ecommerce_db < ecommerce_schema.sql
-   ```
+# 4. Insert sample data (sample_data.sql)
+mysql -u root -p ecommerce_db < sample_data.sql
 
-4. **Run Sample Data**
-   ```bash
-   mysql -u root -p ecommerce_db < sample_data.sql
-   ```
+# 5. (Optional) View ERD
+# - Open https://dbdiagram.io
+# - Copy and paste the contents of ecommerce.sql
 
----
 
 ## 🧱 Database Tables Overview
 
