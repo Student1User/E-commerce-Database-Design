@@ -5,7 +5,8 @@
 ```markdown
 # 🛒 E-Commerce Database Design Project
 
-Welcome to the official repository for our **E-Commerce Relational Database Project**, created as part of the **Power Learn Project (PLP)**.
+Welcome to the official repository for our **E-Commerce Relational Database Project**,
+ created as part of the **Power Learn Project (PLP)**.
 
 ---
 
