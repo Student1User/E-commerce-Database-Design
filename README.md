@@ -1,6 +1,4 @@
-Perfect! Here's a single **all-in-one `README.md`** file that includes everything: project overview, contributors, how to run the project, schema preview, sample data output, technologies, and visuals (with image placeholders).
 
----
 
 ### ✅ `README.md`
 
@@ -38,20 +36,20 @@ It’s a real-world simulation to help practice database normalization, design, 
 
 ```
 ecommerce-database/
-├── schema/
-│   └── ecommerce_schema.sql        -- Contains all CREATE TABLE statements
-├── data/
-│   └── sample_data.sql             -- Inserts sample records into all tables
-├── ERD/
-│   └── ecommerce_ERD.png           -- ERD image from dbdiagram.io
+
+   └── ecommerce_schema.sql        -- Contains all CREATE TABLE statements
+
+   └── sample_data.sql             -- Inserts sample records into all tables
+
+   └── ecommerce_ERD.png           -- ERD image from dbdiagram.io
 └── README.md                       -- This documentation
 ```
 
 ---
 
-## 🛠️ How to Run This Project
+ 🛠️ How to Run This Project
 
-### ✅ Requirements
+ ✅ Requirements
 - MySQL or compatible server
 - MySQL Workbench / phpMyAdmin / CLI
 - Git (optional)
@@ -59,7 +57,7 @@ ecommerce-database/
 
 ---
 
-### 🚀 Setup Instructions
+🚀 Setup Instructions
 
 1. **Clone the Repository**
    ```bash
@@ -75,12 +73,12 @@ ecommerce-database/
 
 3. **Run Schema**
    ```bash
-   mysql -u root -p ecommerce_db < schema/ecommerce_schema.sql
+   mysql -u root -p ecommerce_db < ecommerce_schema.sql
    ```
 
 4. **Run Sample Data**
    ```bash
-   mysql -u root -p ecommerce_db < data/sample_data.sql
+   mysql -u root -p ecommerce_db < sample_data.sql
    ```
 
 ---
@@ -105,8 +103,8 @@ ecommerce-database/
 ## 🗂️ ERD Diagram
 
 Here’s a visual representation of the full database:
+![E commerce Database ](https://github.com/user-attachments/assets/0bb162fd-6524-460c-81a4-11c903f04ebf)
 
-![ERD Sample](ERD/ecommerce_ERD.png)
 
 *Image generated with [dbdiagram.io](https://dbdiagram.io)*
 
@@ -160,7 +158,7 @@ INSERT INTO product (name, brand_id, category_id, base_price, description) VALUE
 ('Slim Fit T-Shirt', 2, 2, 19.99, 'Cotton slim fit T-shirt');
 ```
 
-> Full sample data is located in `/data/sample_data.sql`.
+> Full sample data is located in `/sample_data.sql`.
 
 ---
 
@@ -193,9 +191,6 @@ Thanks to **PLP Academy**, our mentors, and teammates for the support and collab
 
 ---
 
-Let me know if you’d like:
-- A **cover banner image** with your names
-- A **ZIP folder** with everything bundled up
-- Or if you want to link this to a real GitHub repo
+
 
 Ready to go? 😎
