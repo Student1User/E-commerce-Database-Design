@@ -184,8 +184,4 @@ Thanks to **PLP Academy**, our mentors, and teammates for the support and collab
 
 ```
 
----
 
-
-
-Ready to go? 😎
